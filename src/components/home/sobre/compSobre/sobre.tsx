@@ -13,11 +13,11 @@ export function Sobre() {
     
 
     return (
-        <Flex flexDirection={'column'} w='40%' >
+        <Flex flexDirection={'column'} w='60%' >
             <Box mb='10px' >
-                <Text fontFamily='Orbitron' fontSize='2xl' fontWeight={'bold'} color='purple.600' >Sobre mim</Text>
+                <Text fontFamily='Orbitron' fontSize={['1.2rem','2xl']} fontWeight={'bold'} color='purple.600' >Sobre mim</Text>
             </Box>
-            <Box fontFamily={'Roboto'} fontWeight='400' fontSize='1.2rem' color='gray.800' h='50%'>
+            <Box fontFamily={'Roboto'} fontWeight='400' fontSize={['1rem','20px']} color='gray.800' h='50%'>
                 <Text mb='5px'>
                     <strong>Meu nome é Ezequiel Tenho {idade} anos </strong> . Estudo as tecnologias de front-end e sempre busco aprender e evoluir meus conhecimentos e habilidades 
                     estou em busca de um trabalho onde eu possa agregar e conseguir evoluir.

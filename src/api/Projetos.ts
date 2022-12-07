@@ -6,7 +6,14 @@ export const Project = [
   },
   {
     id: 2,
-    title: 'Jonas bicha',
-    url: 'https://www.youtube.com/watch?v=Ijk4j-r7qPA'
+    title: 'Em breve',
+    url: ''
+  },
+  {
+    id: 3,
+    title: 'Em breve',
+    url: ''
   }
+  
+  
 ]
