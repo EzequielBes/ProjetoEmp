@@ -11,7 +11,7 @@ export function Identidade() {
 
   return(
     <Flex h='100vh' alignItems={'center'}  justifyContent={'center'} ref={ref} overflow='hidden'>
-      <Paralax w='80vw' justify='flex-start'>
+      <Paralax w={['90vw','80vw']} justify={['center','flex-start']}>
         <Sobre/>
       </Paralax>
     </Flex>

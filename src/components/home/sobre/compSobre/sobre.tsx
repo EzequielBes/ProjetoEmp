@@ -13,8 +13,8 @@ export function Sobre() {
     
 
     return (
-        <Flex justifyContent={['center  ','space-between']} flexDirection={['column','row']} w='80%' >
-            <Flex flexDirection='column' w={['90%','50%']} justifyContent='center' align={['center','normal']}>
+        <Flex justifyContent={['center  ','space-between']} flexDirection={['column','row']} w='80%'alignItems={'center'} >
+            <Flex flexDirection='column' w={['90%','50%']}  justifyContent='center' align={['center','normal']} >
                 <Box mb='10px' >
                     <Text fontFamily='Orbitron' fontSize={['1.2rem','2xl']} fontWeight={'bold'} color='purple.600' >Sobre mim</Text>
                 </Box>
@@ -30,7 +30,7 @@ export function Sobre() {
                 </Flex>
             </Flex>
             
-            <Box w={['100px','200px']} borderRadius='full'>
+            <Box w={['100px','150px']} borderRadius='full'>
                 <Image src="https://scontent.fgru10-1.fna.fbcdn.net/v/t39.30808-6/288453752_2148782588636503_6166522613233072659_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=V4UhND79GbsAX8Ul-9G&_nc_ht=scontent.fgru10-1.fna&oh=00_AfDVcrlaurf6raBMu7GhaLhxdZHG_5p3eLaO-5S7deSLXg&oe=6396456E" borderRadius='full'/>
             </Box>
         </Flex>
