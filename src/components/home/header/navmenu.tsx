@@ -2,11 +2,11 @@ import { Box, Flex, List, ListItem } from "@chakra-ui/react";
 import { Link } from "react-scroll";
 
 interface menuNavProps {
-  children: string;
+  fore: string;
   title: string;
 }
 
-export function MenuNav({ children, title }: menuNavProps) {
+export function MenuNav({ title,fore }: menuNavProps) {
   return (
     <List display={"flex"}>
       <ListItem
@@ -33,7 +33,7 @@ export function MenuNav({ children, title }: menuNavProps) {
           spy={true}
           duration={500}
           offset={-70}
-          to={children}
+          to={fore}
         >
           {title}
         </Link>

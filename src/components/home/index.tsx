@@ -42,10 +42,10 @@ export function CoHome() {
           }}
         >
           <Header>
-            <MenuNav children="sobre" title="Sobre"></MenuNav>
-            <MenuNav children="habilidades" title="Habilidades"></MenuNav>
-            <MenuNav children="projetos" title="Projetos"></MenuNav>
-            <MenuNav children="contato" title="Contato"></MenuNav>
+            <MenuNav fore="sobre" title="Sobre"></MenuNav>
+            <MenuNav fore="habilidades" title="Habilidades"></MenuNav>
+            <MenuNav fore="projetos" title="Projetos"></MenuNav>
+            <MenuNav fore="contato" title="Contato"></MenuNav>
           </Header>
         </Flex>
       </Box>
