@@ -42,9 +42,10 @@ export function CoHome() {
           }}
         >
           <Header>
-            <MenuNav children="sobre" title="Sobre" />
-            <MenuNav children="habilidades" title="Habilidades" />
-            <MenuNav children="projetos" title="Projetos" />
+            <MenuNav children="sobre" title="Sobre"></MenuNav>
+            <MenuNav children="habilidades" title="Habilidades"></MenuNav>
+            <MenuNav children="projetos" title="Projetos"></MenuNav>
+            <MenuNav children="contato" title="Contato"></MenuNav>
           </Header>
         </Flex>
       </Box>
@@ -68,7 +69,9 @@ export function CoHome() {
           </Box>
         </Flex>
       </Box>
-      <Footer />
+      <Box id="contato">
+        <Footer />
+      </Box>
     </Box>
   );
 }

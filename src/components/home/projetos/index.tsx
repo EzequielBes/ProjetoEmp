@@ -16,9 +16,9 @@ export function Projetos() {
         </Text>
         <Grid  templateColumns='repeat(3, 1fr)' gap={6}>
         {projet.map((item, index) => (
-          <div key={index}>
+          <Flex key={index} bg='gray.600' height='150px' w='150px' align='center' justify='center' color='blue.300' borderRadius='20px'>
             <a href={item.url}>{item.title}</a>
-          </div>
+          </Flex>
         ))}
          </Grid>
       </Paralax>
