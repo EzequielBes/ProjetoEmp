@@ -1,6 +1,6 @@
 {
   "homepage": "https://EzequielBes.github.io/ProjetoEmp",
-  "name": "porti",
+  "name": "ProjetoEmp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "@types/react-scroll": "^1.8.4",
     "@types/styled-components": "^5.1.26",
     "framer-motion": "^7.6.2",
+    "gh-pages": "^4.0.0",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
