@@ -27,7 +27,7 @@ export function CoHome() {
         </Flex>
       </Box>
 
-      <Box h={[0,100]} overflow="hidden">
+      <Box h={[0,0,'100px']} overflow="hidden">
         <Flex
           style={{
             position: isInView ? "static" : "fixed",

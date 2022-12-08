@@ -1,7 +1,7 @@
 {
   "homepage": "https://EzequielBes.github.io/ProjetoEmp",
-  "name": "ProjetoEmp",
-  "version": "0.1.0",
+  "name": "projetoemp",
+  "version": "0.1.0", 
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
@@ -10,6 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+    
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",

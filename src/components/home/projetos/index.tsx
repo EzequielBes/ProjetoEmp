@@ -14,7 +14,7 @@ export function Projetos() {
         <Text fontFamily="Roboto" fontWeight="700" fontSize="1.2rem">
           Projetos
         </Text>
-        <Grid  templateColumns='repeat(3, 1fr)' gap={6}>
+        <Grid  templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)']} gap={6} alignContent={['center','normal']}>
         {projet.map((item, index) => (
           <Flex key={index} bg='gray.600' height='150px' w='150px' align='center' justify='center' color='blue.300' borderRadius='20px'>
             <a href={item.url}>{item.title}</a>
