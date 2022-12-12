@@ -28,21 +28,21 @@ export const Hability:HabilityProps[] = [
   {
     id: 3,
     title: 'Reactjs',
-    conhecimentos: 'Componentização, reactHooks, contextApi, libs',
+    conhecimentos: 'Hooks, Componentização',
     show:false,
     icone:SiReact
   },
   {
     id: 4,
     title: 'Css3',
-    conhecimentos: 'Estilição',
+    conhecimentos: 'Estilização',
     show:false,
     icone:SiCss3
   },
   {
     id: 5,
     title: 'Html5',
-    conhecimentos: 'Codigo organizado, Estrutura',
+    conhecimentos: 'Estrutura organizada',
     show:false,
     icone:SiHtml5
   },

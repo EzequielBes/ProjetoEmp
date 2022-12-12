@@ -17,10 +17,10 @@ export function Botao({ide}:rowProp) {
            
            h='6rem'
            w='6rem'
-           border='2px double white'
+           
            borderRadius='full'
            color='gray.300'
-           bg='cyan.600'
+           bg='blue.700'
            fontSize='2rem'
            transition='all 0.2s ease'
            _active={{

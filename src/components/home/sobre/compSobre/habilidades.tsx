@@ -32,7 +32,7 @@ export function Habilidades() {
               marginBottom="20px"
               fontSize={[15,20]}
             >
-              <Flex flexDirection='column' w={['40vw','20vw']}h='20vh' align='center'justify={'center'} bg='gray.600' borderRadius='0.25rem'>
+              <Flex flexDirection='column' w={['40vw','20vw']}h='20vh' align='center'justify={'center'} bg='gray.600' borderRadius='0.25rem' color='white'>
                 <Box color='purple.500'>{item.title}</Box>
                 <Box fontSize='40px' cursor='pointer' color='blue.500'>{<item.icone />}</Box>
                 <Box>{item.show && item.conhecimentos}</Box>

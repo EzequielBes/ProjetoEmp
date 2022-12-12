@@ -15,7 +15,7 @@ export function Paralax({children, ...rest}:any) {
             position: 'relative',
             transition: 'all ease 1.3s',
             opacity: isInView ? '1' : '0',
-            transform: isInView ? "translateY(-40px)" : "translateY(200px)"
+            transform: isInView ? "translateY(-40px)" : "translateY(100px)"
         }}
         {...rest} >
             {children}

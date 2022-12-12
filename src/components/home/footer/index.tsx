@@ -8,7 +8,7 @@ export function Footer() {
         <Box>
           <Text fontWeight='bold'>Criado por Ezequiel</Text>
         </Box>
-        <Box>
+        <Box color='white'>
           <Text color='blue.400'>Contato:</Text>
           <Flex align={'center'} gap='10px'>
             <Icon as={SiGmail}/>
