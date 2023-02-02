@@ -51,7 +51,7 @@ export function Sobre() {
       </Flex>
 
       <Box w={["100px", "150px"]} borderRadius="full">
-        <Img src="https://scontent.fgru10-1.fna.fbcdn.net/v/t39.30808-6/288453752_2148782588636503_6166522613233072659_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UzFeWSnN4ZAAX9rMz4s&_nc_ht=scontent.fgru10-1.fna&oh=00_AfB581U1F2_2qqb7yZ4et7H5usaUJK-z3Aal0RS-kl58-A&oe=639C342E" borderRadius='full'/>
+        <Image src="https://avatars.githubusercontent.com/u/113632597?s=400&u=353f610858d97c1a17be0449048212bb176b7914&v=4" borderRadius='full'/>
       </Box>
     </Flex>
   );

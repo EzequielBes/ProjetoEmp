@@ -17,7 +17,7 @@ export function CoHome() {
   const [isLargerThan800] = useMediaQuery('(min-width: 800px)')
 
   return (
-    <Box overflow="hidden">
+    <Box overflow="hidden" bg='gray.300'>
       <Box id="initial" ref={ref} h="100vh">
         <Flex  flexDirection="column" justify="center" align="center">
           <Homes />
