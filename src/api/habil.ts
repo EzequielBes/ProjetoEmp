@@ -14,14 +14,14 @@ export const Hability:HabilityProps[] = [
   {
     id: 1,
     title: 'Javascript',
-    conhecimentos: 'Dom, refatoração, componentização',
+    conhecimentos: 'Desenvolvimento web com javascript. Dom, Refatoração etc',
     show:false,
     icone:DiJavascript1
   },
   {
     id: 2,
     title: 'Typescript',
-    conhecimentos: 'Typagem',
+    conhecimentos: 'Criado para facilitar a manutenção e impedir possiveis erros',
     show:false,
     icone:SiTypescript
   },
@@ -42,7 +42,7 @@ export const Hability:HabilityProps[] = [
   {
     id: 5,
     title: 'Html5',
-    conhecimentos: 'Estrutura organizada',
+    conhecimentos: 'Estrutura organizada e semantica',
     show:false,
     icone:SiHtml5
   },

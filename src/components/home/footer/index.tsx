@@ -1,5 +1,5 @@
 import { Box, Flex, Icon, Text } from "@chakra-ui/react";
-import { SiGmail,SiGithub } from 'react-icons/si'
+import { SiGmail,SiGithub,SiLinkedin } from 'react-icons/si'
 export function Footer() {
 
   return (
@@ -12,11 +12,15 @@ export function Footer() {
           <Text color='blue.400'>Contato:</Text>
           <Flex align={'center'} gap='10px'>
             <Icon as={SiGmail}/>
-            <Text fontFamily='Roboto' fontWeight='500' fontSize='17px'>ezequieltdbeserra@gmail.com</Text>
+            <Text fontFamily='Roboto' fontWeight='500' fontSize='17px'>ezequieltbeserra00@gmail.com</Text>
           </Flex>
           <Flex align={'center'} gap='10px'>
             <Icon as={SiGithub}/>
-            <Text fontFamily='Roboto' fontWeight='500' fontSize='17px'>https://github.com/EzequielBes</Text>
+            <Text fontFamily='Roboto' fontWeight='500' fontSize='17px'><a href='https://github.com/EzequielBes'>https://github.com/EzequielBes</a></Text>
+          </Flex>
+          <Flex align={'center'} gap='10px'>
+            <Icon as={SiLinkedin}/>
+            <Text fontFamily='Roboto' fontWeight='500' fontSize='17px'><a href='linkedin.com/in/ezequieltb'>linkedin.com/in/ezequieltb</a></Text>
           </Flex>
         </Box>
       </Flex>
