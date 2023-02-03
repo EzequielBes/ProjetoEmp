@@ -1,10 +1,11 @@
-import { Box, Flex, Grid, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, Image, Link, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import { Project } from "../../../api/Projetos";
 import { Paralax } from "../../paralax";
 
 export function Projetos() {
   const [projet, setProjet] = useState(Project);
+  
 
   function showProject() {}
 
@@ -17,7 +18,13 @@ export function Projetos() {
         <Grid  templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)']} gap={6} alignContent={['center','normal']}>
         {projet.map((item, index) => (
           <Flex key={index} bg='gray.600' height='150px' w='150px' align='center' justify='center' color='blue.300' borderRadius='20px'>
-            <a href={item.url}>{item.title}</a>
+           <Link href={item.url} w='100%' h='100%'>
+            {item.logo !== null &&
+              <Image src={item.logo} w='100%' h='100%' borderRadius='10px' alt='Projetos'/>
+              
+            }
+            </Link>
+            
           </Flex>
         ))}
          </Grid>
